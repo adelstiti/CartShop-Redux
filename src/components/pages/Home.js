@@ -2,9 +2,9 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
-            ge
-        </div>
+        <h1 className="mt-5 pt-5 container">
+            Welecome to Redux shoping Cart
+        </h1>
     )
 }
 

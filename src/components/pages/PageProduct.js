@@ -2,27 +2,22 @@ import React,{useEffect} from 'react'
 import { connect } from 'react-redux'
 import { useState } from 'react';
 import { addToCart } from '../../redux/actions'
-
 import {Card,CardBody, CardText,CardSubtitle,CardImg, Row,Col,Input,InputGroup,InputGroupAddon,InputGroupText, Button} from 'reactstrap'
-
-
-
-
 
 const PageProduct = (props) => {
 const [product, setProduct] = useState()
 const [quantity, setQuantity] = useState(1)
    
-const findProduct = async (id) => {
-    const products = props.products ;
-    const prod = await products.find(item => item.id == id);
-        setProduct(prod)
-}
+
 
 useEffect(() => {
-    const id = props.match.params.id
-    findProduct(id)
-}, []);
+    const findProduct = async (id) => {
+        const products = props.products ;
+        const prod = await products.find(item => item.id === id);
+            setProduct(prod)
+    }
+    findProduct(props.match.params.id)
+}, [props.match.params.id,props.products]);
 
 const handleQuantity = (e) => {
     setQuantity(e.target.value)
@@ -39,7 +34,6 @@ const addToCart = () => {
                 <Row>
 
                     <Col md='4'>
-                    <CardText className='font-weight-bold mt-3 ' style={{marginLeft : '32%'}}> Price : <span>{product && product.price} DT</span></CardText>
                         <CardImg  src={product && product.image} alt="Card image cap" />
                     </Col>
                     <Col md='7'>

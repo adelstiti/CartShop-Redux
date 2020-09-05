@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Col, Toast, ToastHeader, ToastBody, Alert} from 'reactstrap'
+import {Col, Alert} from 'reactstrap'
 import { connect } from 'react-redux'
 import CartItem from './CartItem'
 import { clearCard } from '../../redux/actions'

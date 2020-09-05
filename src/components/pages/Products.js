@@ -1,7 +1,6 @@
 import React from 'react'
 import Product from './Product'
 import {Col} from 'reactstrap'
-import { useState } from 'react'
 import { connect } from 'react-redux'
 
 const Products = ({products}) => {

@@ -20,7 +20,8 @@ const NavbarComp = () => {
     const toggle = () => setIsOpen(!isOpen);
     return (
         
-      <Navbar color="light" light expand="md">
+      <Navbar color="light" light  expand="md">
+        <div className="container">
         <NavbarBrand href="/">StoreRed</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -37,6 +38,7 @@ const NavbarComp = () => {
           </Nav>
         </Collapse>
         <Link  to="/cart" style={{color : 'black'}}><CartIcon /></Link>
+        </div>
       </Navbar>
     )
 }

@@ -10,13 +10,13 @@ import { deleteFromCart } from '../../redux/actions';
 const CartItem = ({item,deleteFromCart}) => {
 
     return (
-          <Card>
-            <CardImg  src={item.product.image} />
+          <Card style={{width:'15rem'}}>
+            <CardImg  src={item.product.image} style={{height:'13rem'}}/>
             <CardBody>
               <CardTitle>{item.product.name}</CardTitle>
-              <CardText className='text-muted m-0'> Price : {item.product.price}</CardText>
+              <CardText className='text-muted m-0'> Price : {item.product.price} DT</CardText>
               <CardText className='text-muted m-0'> Quantity :{item.quantity}</CardText>
-              <CardText className='text-muted'> Total : {item.product.price * item.quantity}</CardText>
+              <CardText className='text-muted'> Total : {item.product.price * item.quantity} DT</CardText>
               <Button className='btn btn-danger' onClick={() => deleteFromCart(item.product.id)  } >  <FontAwesomeIcon icon={faTrash} size="lg" /></Button>        
             </CardBody>
           </Card>

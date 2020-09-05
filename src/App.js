@@ -9,7 +9,6 @@ import Products from './components/pages/Products';
 import PageProduct from './components/pages/PageProduct';
 function App() {
   return (
-    <div className='container'>
       <Provider store={store}>
         <BrowserRouter>
         <NavbarComp />
@@ -21,7 +20,6 @@ function App() {
           </Switch>
         </BrowserRouter>
       </Provider> 
-    </div>
   );
 }
 
