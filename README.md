@@ -1,4 +1,4 @@
-# SPA-PUREJS
+# CartShop-Redux
 
 A simple react app for shopping cart with redux
 
