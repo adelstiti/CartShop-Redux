@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/CartShop-Redux/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/CartShop-Redux/static/js/main.e5760abb.chunk.js",
-    "main.js.map": "/CartShop-Redux/static/js/main.e5760abb.chunk.js.map",
+    "main.js": "/CartShop-Redux/static/js/main.a560028f.chunk.js",
+    "main.js.map": "/CartShop-Redux/static/js/main.a560028f.chunk.js.map",
     "runtime-main.js": "/CartShop-Redux/static/js/runtime-main.804e5c2c.js",
     "runtime-main.js.map": "/CartShop-Redux/static/js/runtime-main.804e5c2c.js.map",
     "static/css/2.5b44f0a0.chunk.css": "/CartShop-Redux/static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.d63d6b76.chunk.js": "/CartShop-Redux/static/js/2.d63d6b76.chunk.js",
-    "static/js/2.d63d6b76.chunk.js.map": "/CartShop-Redux/static/js/2.d63d6b76.chunk.js.map",
+    "static/js/2.bd06bf44.chunk.js": "/CartShop-Redux/static/js/2.bd06bf44.chunk.js",
+    "static/js/2.bd06bf44.chunk.js.map": "/CartShop-Redux/static/js/2.bd06bf44.chunk.js.map",
     "index.html": "/CartShop-Redux/index.html",
-    "precache-manifest.e9f0da4561a798336b1e3b470528b839.js": "/CartShop-Redux/precache-manifest.e9f0da4561a798336b1e3b470528b839.js",
+    "precache-manifest.956e2e12feff862e9597040a9d5b6088.js": "/CartShop-Redux/precache-manifest.956e2e12feff862e9597040a9d5b6088.js",
     "service-worker.js": "/CartShop-Redux/service-worker.js",
     "static/css/2.5b44f0a0.chunk.css.map": "/CartShop-Redux/static/css/2.5b44f0a0.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/CartShop-Redux/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.d63d6b76.chunk.js.LICENSE.txt": "/CartShop-Redux/static/js/2.d63d6b76.chunk.js.LICENSE.txt"
+    "static/js/2.bd06bf44.chunk.js.LICENSE.txt": "/CartShop-Redux/static/js/2.bd06bf44.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.804e5c2c.js",
     "static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.d63d6b76.chunk.js",
+    "static/js/2.bd06bf44.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.e5760abb.chunk.js"
+    "static/js/main.a560028f.chunk.js"
   ]
 }
