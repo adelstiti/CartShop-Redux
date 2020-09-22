@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CartShop-Redux/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/CartShop-Redux/static/js/main.a560028f.chunk.js",
-    "main.js.map": "/CartShop-Redux/static/js/main.a560028f.chunk.js.map",
+    "main.js": "/CartShop-Redux/static/js/main.7dcdcd4f.chunk.js",
+    "main.js.map": "/CartShop-Redux/static/js/main.7dcdcd4f.chunk.js.map",
     "runtime-main.js": "/CartShop-Redux/static/js/runtime-main.804e5c2c.js",
     "runtime-main.js.map": "/CartShop-Redux/static/js/runtime-main.804e5c2c.js.map",
     "static/css/2.5b44f0a0.chunk.css": "/CartShop-Redux/static/css/2.5b44f0a0.chunk.css",
     "static/js/2.bd06bf44.chunk.js": "/CartShop-Redux/static/js/2.bd06bf44.chunk.js",
     "static/js/2.bd06bf44.chunk.js.map": "/CartShop-Redux/static/js/2.bd06bf44.chunk.js.map",
     "index.html": "/CartShop-Redux/index.html",
-    "precache-manifest.956e2e12feff862e9597040a9d5b6088.js": "/CartShop-Redux/precache-manifest.956e2e12feff862e9597040a9d5b6088.js",
+    "precache-manifest.e2a7d878420dc9cecad5af49ea3b7b12.js": "/CartShop-Redux/precache-manifest.e2a7d878420dc9cecad5af49ea3b7b12.js",
     "service-worker.js": "/CartShop-Redux/service-worker.js",
     "static/css/2.5b44f0a0.chunk.css.map": "/CartShop-Redux/static/css/2.5b44f0a0.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/CartShop-Redux/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.5b44f0a0.chunk.css",
     "static/js/2.bd06bf44.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.a560028f.chunk.js"
+    "static/js/main.7dcdcd4f.chunk.js"
   ]
 }

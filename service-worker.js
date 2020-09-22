@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CartShop-Redux/precache-manifest.956e2e12feff862e9597040a9d5b6088.js"
+  "/CartShop-Redux/precache-manifest.e2a7d878420dc9cecad5af49ea3b7b12.js"
 );
 
 self.addEventListener('message', (event) => {

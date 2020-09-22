@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f6930b4af7c2ce6b7da051095672deb",
+    "revision": "72b10f5f88165dc87d4145aae7aaacd9",
     "url": "/CartShop-Redux/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CartShop-Redux/static/css/2.5b44f0a0.chunk.css"
   },
   {
-    "revision": "3fccfa6ee586cf01fc7f",
+    "revision": "c762a0b22874b38fbd37",
     "url": "/CartShop-Redux/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CartShop-Redux/static/js/2.bd06bf44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3fccfa6ee586cf01fc7f",
-    "url": "/CartShop-Redux/static/js/main.a560028f.chunk.js"
+    "revision": "c762a0b22874b38fbd37",
+    "url": "/CartShop-Redux/static/js/main.7dcdcd4f.chunk.js"
   },
   {
     "revision": "34b26ef19d90df8b07e5",
