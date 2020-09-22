@@ -13,7 +13,7 @@ const [quantity, setQuantity] = useState(1)
 useEffect(() => {
     const findProduct = async (id) => {
         const products = props.products ;
-        const prod = await products.find(item => item.id === id);
+        const prod = await products.find(item => item.id === Number(id));
             setProduct(prod)
     }
     findProduct(props.match.params.id)
